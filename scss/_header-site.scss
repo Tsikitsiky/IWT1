@@ -1,0 +1,19 @@
+.header-site__container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-block: 16px;
+    padding-bottom: 36px;
+   }
+   
+   .icon_menu {
+       background-image: image('icon-menu.svg');
+       background-size: 24px 24px;
+   }
+
+   .header-site__container  label {
+    width: 16px;
+    height: 27px;
+    display: block;
+  }

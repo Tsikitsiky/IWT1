@@ -1,0 +1,14 @@
+.main-header {
+    background-image: image('bg-intro-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+}
+
+.main-header__container {
+    background-image: image('image-mockups.png');
+    background-repeat: no-repeat;
+    background-position: 50% -190%;
+    background-size: 350px;
+    padding-top: 370px;
+}

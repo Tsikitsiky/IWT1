@@ -1,0 +1,17 @@
+$font-base: "Public Sans";
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$base-font-size: 18px;
+$dark-blue: hsl(233, 26%, 24%);
+$lime-green: hsl(136, 65%, 51%);
+$bright-cyan: hsl(192, 70%, 51%);
+$grayish-blue: hsl(233, 8%, 62%);
+$light-grayish-blue: hsl(220, 16%, 96%);
+$very-light-gray: hsl(0, 0%, 98%);
+$white: hsl(0, 0%, 100%);
+
+//for the background image
+@function image($filename) {
+    @return url('../images/#{$filename}');
+  }
