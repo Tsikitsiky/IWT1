@@ -39,8 +39,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-block: 16px;
-  padding-bottom: 36px; }
+  padding-block: 16px; }
 
 .icon_menu {
   background-image: url("../images/icon-menu.svg");
@@ -83,8 +82,11 @@ a {
 body > [type="checkbox"]:checked ~ header nav {
   transform: translateX(0%);
   z-index: 2;
-  top: 70%;
+  top: 100%;
   left: 0%; }
+
+body > [type="checkbox"]:checked ~ main > header .container {
+  background-image: none; }
 
 #menu_checkbox {
   display: none; }

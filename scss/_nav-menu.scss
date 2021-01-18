@@ -36,8 +36,12 @@
   body > [type="checkbox"]:checked ~ header nav {
     transform: translateX(0%);
     z-index: 2;
-    top: 70%;
+    top: 100%;
     left: 0%;
+  }
+
+  body > [type="checkbox"]:checked ~ main > header .container {
+    background-image: none;
   }
 
   #menu_checkbox {
