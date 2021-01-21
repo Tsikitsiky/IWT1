@@ -1,8 +1,9 @@
 body {
     margin: 0;
+    font-family: "Public Sans", sans-serif;
 }
 
-h1, h2, h3, h4, p {
+h1, h2, h3, h4, h5, p {
     margin: 0;
 }
 
@@ -19,4 +20,29 @@ a {
 .icon {
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.request-invite {
+    padding: 0.75rem 1.5rem;
+    font-size: $base-font-size;
+    line-height: 24px;
+    border-radius: 20px;
+    background-image: linear-gradient(to left, $bright-cyan, $lime-green);
+    border: none;
+    outline: none;
+
+    a {
+        color: $white;
+    }
+}
+
+.container {
+    padding: 0 16px;
+}
+
+h3 {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 500;
+    color: $dark-blue;
 }

@@ -1,0 +1,59 @@
+.section-advertisement {
+    background-color: $light-grayish-blue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-advertisement__header {
+    text-align: center;
+    
+    .section-advertisement__header--description {
+        color: $grayish-blue;
+        font-size: 16px;
+        padding-block: 16px;
+    }
+}
+
+.reasons-list {
+    display: flex;
+    flex-direction: column;
+
+    h4 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 27px;
+        padding-bottom: 1rem;
+        color: $dark-blue;
+    }
+
+    p {
+        color: $grayish-blue;
+    }
+
+    li {
+        padding-top: 150px;
+        text-align: center;
+        background-position: 50% 30%;
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+
+    .online-banking {
+        background-image: image('icon-online.svg');
+    }
+
+    .simple-budgeting {
+        background-image: image('icon-budgeting.svg');
+    }
+
+    .fast-onboarding {
+        background-image: image('icon-onboarding.svg');
+    }
+
+    .open-api {
+        background-image: image('icon-api.svg');
+    }
+}
+
+
+ 

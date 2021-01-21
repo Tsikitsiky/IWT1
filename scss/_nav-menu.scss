@@ -9,7 +9,7 @@
     transition: transform 0.3s;
     background-color: rgba($color: #333333, $alpha: .5);
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     text-align: center;
 
     ul {
@@ -23,7 +23,7 @@
     }
 
     a {
-      font-weight: $font-weight-bold;
+      font-weight: $font-weight-normal;
       color: $dark-blue;
       font-size: $base-font-size;
       line-height: 24px;
