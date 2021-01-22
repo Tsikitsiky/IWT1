@@ -11,15 +11,17 @@
 }
 
 .articles-list {
-    
-    a {
         color: $grayish-blue;
         h5 {
-            color: $dark-blue;
-            font-weight: 500;
-            font-size: 21px;
+            a {
+                color: $dark-blue;
+                font-weight: 500;
+                font-size: 21px;
+                &:hover {
+                    color: $lime-green;
+                }
+            }
         }
-    }
      article {
         display: flex;
         flex-direction: column;
@@ -52,6 +54,20 @@
         p {
             order: 4;
             padding: 0 1rem;
+        }
+    }
+}
+
+@media(min-width: 1000px) {
+    .articles-list {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        align-items: center;
+
+        article {
+            max-width: 250px;
+            height: 400px;
         }
     }
 }

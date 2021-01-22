@@ -9,6 +9,15 @@
         color: $white;
         font-weight: 300;
         font-size: $base-font-size;
+        &:hover {
+            color: $lime-green;
+        }
+    }
+
+    .request-invite {
+        a:hover {
+            color: $white;
+        }
     }
 
     .footer-site__social-media-list {
@@ -70,4 +79,34 @@
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+}
+
+@media(min-width: 1000px) {
+    .footer-site__container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .footer-site {
+        .footer-site__social-media-list {
+            justify-content: space-between;
+            gap: 3rem;
+        }
+
+        .sitemap ul {
+                display: block;
+                columns: 2;
+                text-align: left;
+
+                li {
+                    margin-bottom: 1rem;
+                }
+        }
+
+        .foot {
+            gap: 2rem;
+        }
+
+    }
 }

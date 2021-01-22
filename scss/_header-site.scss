@@ -4,6 +4,10 @@
     flex-direction: row;
     justify-content: space-between;
     padding-block: 16px;
+
+    .request-invite {
+        display: none;
+    }
    }
    
    .icon_menu {
@@ -15,4 +19,18 @@
     width: 16px;
     height: 27px;
     display: block;
+  }
+
+  @media(min-width: 1000px) {
+      .header-site__container {
+        align-items: center;
+      }
+
+      .header-site__container label {
+          display: none;
+      }
+
+      .header-site__container .request-invite {
+          display: block;
+      }
   }

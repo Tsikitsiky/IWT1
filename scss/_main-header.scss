@@ -28,3 +28,31 @@
         padding-block: 32px;
     }
 }
+
+@media(min-width: 1000px) {
+    .main-header {
+        background-image: image('image-mockups.png'), image('bg-intro-desktop.svg');
+        background-size: 50%, 100%;
+        background-position: 117% 50%,calc(50vw - 100px) 50%;
+
+        .main-header__heading {
+            font-size: 48px;
+        }
+
+        .main-header__description {
+            font-size: 18px;
+        }
+    }
+
+    .main-header__container {
+        background-image: none;
+        text-align: left;
+        padding-block: 150px;
+    }
+
+    .main-header__heading, .main-header__description {
+        max-width: 400px;
+    }
+
+    
+}

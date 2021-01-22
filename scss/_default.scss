@@ -15,6 +15,11 @@ ul {
 
 a {
     text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
 }
 
 .icon {
@@ -45,4 +50,15 @@ h3 {
     line-height: 38px;
     font-weight: 500;
     color: $dark-blue;
+}
+
+@media(min-width: 1000px) {
+    .section-articles {
+        padding: 0;
+    }
+    .container {
+        max-width: 1060px;
+        margin: 0 auto;
+        padding: 0;
+    }
 }

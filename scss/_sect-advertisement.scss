@@ -55,5 +55,23 @@
     }
 }
 
+@media(min-width: 1000px) {
+    .reasons-list {
+        flex-direction: row;
+        gap: 2rem;
+
+        li {
+            text-align: left;
+            background-position: 0% 20%;
+        }
+    }
+
+    .section-advertisement__header {
+        text-align: left;
+        max-width: 550px;
+    }
+    
+}
+
 
  
